@@ -78,3 +78,4 @@ class BasicAuth(Auth):
                                                      credentials[1])
         except Exception:
             return None
+        
