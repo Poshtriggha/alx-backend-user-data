@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" The basic flask app """
+""" Flask app setup """
 
 from flask import Flask, jsonify, request, abort, redirect
 from auth import Auth
@@ -95,3 +95,4 @@ def update_password() -> str:
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port="5000")
+    
