@@ -68,3 +68,4 @@ class DB:
             setattr(user, key, value)
         session.commit()
         return None
+    
